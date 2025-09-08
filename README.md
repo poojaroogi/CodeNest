@@ -1,17 +1,17 @@
-<<<<<<< HEAD
-# React + Vite
+# CodeNest 🐣
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**My Personal Code Snippet Library** – a private project to store, manage, and quickly search all my code snippets in one place. Built with **React** and **Firebase**, it lets me access snippets from any system while keeping them private.  
 
-Currently, two official plugins are available:
+**Features:** Add new snippets with title & code, search by title, syntax highlighting, real-time updates with Firebase, private access via Firebase Auth.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tech Stack:** React.js, Firebase Firestore, Firebase Auth, react-syntax-highlighter.  
 
-## Expanding the ESLint configuration
+**How to Use Locally:**  
+1. Clone: `git clone https://github.com/poojaroogi/CodeNest.git`  
+2. Install: `npm install`  
+3. Replace `firebase.js` with your Firebase config  
+4. Run: `npm start` → Open [https://code-nest-xjc3-89v7grxbe-pooja-s-rs-projects.vercel.app/)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# CodeNest
-react project
->>>>>>> e562798cf07dc23e7f35cbbfe93475f4b43e4c1e
+**Notes:** Only I can access this project; all snippet updates are saved in Firebase Firestore. Ideal for storing JS, React, and utility code snippets for quick use.  
+
+Made for personal use by **Pooja Suresh Roogi**
